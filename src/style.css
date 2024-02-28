@@ -1,0 +1,371 @@
+
+body{
+    font-family: 'Inter'
+}
+.MainContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.divContainer {
+    /* border: 1px solid; */
+    margin-top: 30px;
+    width: 80%;
+    height: 90h;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    width: 100%;
+    height: 50px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div2 {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(237, 202, 156); */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C8C8C8;
+}
+
+
+
+.div3 {
+    width: 100%;
+    height: 250px;
+    background-color: #ff6b8214;
+    border: 3px solid #FF6B82
+}
+
+.div4 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C8C8C8;
+}
+
+.div5 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div6 {
+    width: 100%;
+    height: 40px;
+}
+
+.divFlex1 {
+
+    width: 30%;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+
+.divFlex2 {
+
+    width: 30%;
+    /* background-color: rgb(64, 77, 77); */
+    font-size: 20px;
+    color: #FF6B82;
+}
+
+.divFlex3 {
+
+    width: 30%;
+    /* background-color: rgb(1, 19, 19); */
+}
+.div2Flex1{
+    width: 40%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2Flex2{
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxStyle{
+    background-color: #D7445B;
+    width: 150px;
+    height: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+ 
+}
+
+.box1Style{
+    background-color: rgb(255, 107, 130);
+    width: 135px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    /* left: 0px; */
+    top: 0px;
+    z-index: 18;
+}
+
+.buttonStyle{
+    width: 100%;
+    height: 40px;
+    background-color: #FF6B82;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+}
+
+/* media query */
+
+.headerStyle{
+    text-align: -webkit-center;
+    font-size: 18px;
+}
+
+.unitStyle{
+    font-size: 18px;
+}
+
+.spanStyle{
+    background-color: rgb(255, 107, 130);
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 200;
+    /* padding: 5px; */
+}
+
+.secondSpan{
+
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.thirdSpan{
+    background-color: white;
+    color: rgb(200, 200, 200);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.freestyle{
+    font-size: 18px;
+    color: rgb(255, 107, 130);
+}
+.mainBox{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 13px;
+    left: 37%;
+}
+@media only screen and (min-width: 1200px)
+{
+    .divContainer {
+        margin-top: 30px;
+        width: 50%;
+        height: 90h;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .mainBox{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 13px;
+        left: 39%;
+    }
+}
+
+
+.chnageDiv{
+    display: flex;
+    height: 140px;
+    /* background-color: aqua; */
+}
+
+.changeDiv1{
+width: 15%;
+text-align: end;
+}
+
+.changeDiv2{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.chnageDiv21{
+    width: 40%;
+}
+
+.chnageDiv22{
+    width: 40%;
+}
+
+.selcetDiv{
+    width: 85%;
+    height: 22%;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.textFont{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+
+    .headerStyle{
+        text-align: -webkit-center;
+        font-size: 15px;
+    }
+    .unitStyle{
+        font-size: 15px;
+    }
+    .spanStyle{
+        background-color: rgb(255, 107, 130);
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: 200;
+    /* padding: 5px; */
+    }
+    
+.secondSpan{
+ 
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.thirdSpan{
+    background-color: white;
+    color: rgb(200, 200, 200);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.freestyle{
+    font-size: 15px;
+    color: rgb(255, 107, 130);
+}
+.buttonStyle{
+    width: 100%;
+    height: 40px;
+    background-color: #FF6B82;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+}
+.mainBox{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 13px;
+    left: 25%;
+}
+}
+
+@media only screen and (max-width: 446px) {
+    
+    .headerStyle{
+        text-align: -webkit-center;
+        font-size: 10px;
+    }
+    .unitStyle{
+        font-size: 10px;
+    }
+    .spanStyle{
+        background-color: rgb(255, 107, 130);
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 10px;
+        margin-left: 5px;
+        font-weight: 200;
+        /* padding: 5px; */
+    }
+    
+.secondSpan{
+ 
+    color: black;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.thirdSpan{
+    background-color: white;
+    color: rgb(200, 200, 200);
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.freestyle{
+    font-size: 10px;
+    color: rgb(255, 107, 130);
+}
+.buttonStyle{
+    width: 100%;
+    height: 40px;
+    background-color: #FF6B82;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+}
+.mainBox{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 13px;
+    left: 25%;
+}
+  }
